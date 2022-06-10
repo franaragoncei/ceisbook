@@ -13,7 +13,7 @@
     <?php
     include '../db/connection.php';
     include 'editar.php';
-    echo '<h1>Bienvenido, ' . $_SESSION['nombre'] . ' ' . $_SESSION['apellido'] . '</h1>';
+    echo '<h1>Bienvenido, ' . $_SESSION['nombre'] .'</h1>';
     echo '<button><a href="cerrar_sesion.php">Cerrar Sesión</a></button>';
     echo '<button><a href="editarForm.php">Editar</a></button>';
     echo '<button id="verPeliculas">Ver Peliculas</button>';
